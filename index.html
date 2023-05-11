@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Juego SuperHeroes JS</title>
+  </head>
+  <body onload="comenzarCuentaRegresiva()">
+    <main>
+      <div>
+        <h1>Juego SuperHeroes JS</h1>
+        <div class="portada">
+          <img src="./imagenes/portada.jpg" alt="todos los avengers" />
+        </div>
+        <h2>
+          Responde lo más rápido que puedas <span id="cuentaRegresiva"></span>
+        </h2>
+      </div>
+      <div class="botonParrafo">
+        <button onclick="volverAIntentar ()">Comenzar</button>
+        <p>
+          Hola, Bienvenidos a este juego de preguntas y respuestas. Está en
+          formato beta y es un proyecto de clases sobre funciones en JavaScript.
+        </p>
+      </div>
+      <div class="divPregunta1">
+        <h1>Pregunta 1</h1>
+        <h3>¿Cuál es el nombre de este SuperHeroe?</h3>
+        <img class="ironMan" src="./imagenes/ironMan.png" alt="ironMan" />
+        <input type="text" placeholder="Escribe tu respuesta" id="respuesta1" />
+      </div>
+      <div class="divPregunta2">
+        <h1>Pregunta 2</h1>
+        <h3>¿Cuál es el nombre de este SuperHeroe?</h3>
+        <img class="hulk" src="./imagenes/hulk.png" alt="hulk" />
+        <input type="text" placeholder="Escribe tu respuesta" id="respuesta2" />
+      </div>
+      <div class="divPregunta3">
+        <h1>Pregunta 3</h1>
+        <h3>¿Cuál es el nombre de este SuperHeroe?</h3>
+        <img class="thor" src="./imagenes/thor.png" alt="thor" />
+        <input type="text" placeholder="Escribe tu respuesta" id="respuesta3" />
+      </div>
+      <div class="divPregunta4">
+        <h1>Pregunta 4</h1>
+        <h3>¿Cuál es el nombre de este SuperHeroe?</h3>
+        <img class="wolverine" src="./imagenes/wolverine.png" alt="wolverine" />
+        <input type="text" placeholder="Escribe tu respuesta" id="respuesta4" />
+      </div>
+      <div class="divPregunta5">
+        <h1>Pregunta 5</h1>
+        <h3>¿Cuál es el nombre de este SuperHeroe?</h3>
+        <img class="spiderman" src="./imagenes/spiderman.png" alt="ironMan" />
+        <input type="text" placeholder="Escribe tu respuesta" id="respuesta5" />
+      </div>
+
+      <div class="botonesFinal">
+        <button onclick="finalizado ()">Terminé</button>
+
+        <button onclick="volverAIntentar ()">Intentar de Nuevo</button>
+      </div>
+
+      <audio id="audioFinal" src="./audios/gameover (1).mp3" type="audio/mpeg">
+        Audio Game Over
+      </audio>
+    </main>
+    <script src="./script/script.js"></script>
+  </body>
+</html>

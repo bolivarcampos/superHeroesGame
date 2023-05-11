@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(154, 63, 251);
+  background: linear-gradient(
+    261deg,
+    rgba(154, 63, 251, 1) 0%,
+    rgba(179, 8, 42, 1) 100%
+  );
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.portada {
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: darkkhaki;
+}
+
+input {
+  width: 180px;
+  height: 30px;
+}
+
+.botonParrafo {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.divPregunta1 {
+  width: 500px;
+  background-color: royalblue;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.divPregunta1 h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.divPregunta1 h3 {
+  text-align: center;
+}
+.ironMan {
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.divPregunta2 {
+  width: 500px;
+  background-color: royalblue;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.divPregunta2 h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.divPregunta2 h3 {
+  text-align: center;
+}
+
+.hulk {
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.divPregunta3 {
+  width: 500px;
+  background-color: royalblue;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.divPregunta3 h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.divPregunta3 h3 {
+  text-align: center;
+}
+
+.thor {
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.divPregunta4 {
+  width: 500px;
+  background-color: royalblue;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.divPregunta4 h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.divPregunta4 h3 {
+  text-align: center;
+}
+
+.wolverine {
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.divPregunta5 {
+  width: 500px;
+  background-color: royalblue;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.divPregunta5 h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.divPregunta5 h3 {
+  text-align: center;
+}
+
+.spiderman {
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#cuentaRegresiva {
+  border: 5px;
+  border-color: black;
+  border-style: solid;
+  color: rgb(249, 249, 249);
+  background-color: red;
+}
+
+.botonesFinal {
+  text-align: center;
+}
